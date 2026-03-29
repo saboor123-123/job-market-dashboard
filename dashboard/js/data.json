@@ -1,0 +1,592 @@
+{
+  "overview": {
+    "total_jobs": 4999,
+    "total_companies": 51,
+    "total_locations": 14,
+    "avg_salary": 100596.0,
+    "min_salary": 20506.0,
+    "max_salary": 193792.0,
+    "remote_jobs": 762
+  },
+  "top_skills": [
+    {
+      "name": "Python",
+      "count": 976
+    },
+    {
+      "name": "AWS",
+      "count": 935
+    },
+    {
+      "name": "Azure",
+      "count": 882
+    },
+    {
+      "name": "SQL",
+      "count": 804
+    },
+    {
+      "name": "Git",
+      "count": 800
+    },
+    {
+      "name": "Google Cloud",
+      "count": 555
+    },
+    {
+      "name": "Data Visualization",
+      "count": 532
+    },
+    {
+      "name": "Excel",
+      "count": 520
+    },
+    {
+      "name": "Scikit-learn",
+      "count": 509
+    },
+    {
+      "name": "Machine Learning",
+      "count": 499
+    },
+    {
+      "name": "Power BI",
+      "count": 497
+    },
+    {
+      "name": "Tableau",
+      "count": 489
+    },
+    {
+      "name": "NumPy",
+      "count": 486
+    },
+    {
+      "name": "TensorFlow",
+      "count": 486
+    },
+    {
+      "name": "Spark",
+      "count": 485
+    }
+  ],
+  "jobs_by_category": [
+    {
+      "name": "Data",
+      "count": 2152,
+      "avg_salary": 108800.0
+    },
+    {
+      "name": "Software",
+      "count": 1615,
+      "avg_salary": 102019.0
+    },
+    {
+      "name": "IT Support",
+      "count": 707,
+      "avg_salary": 64895.0
+    },
+    {
+      "name": "Design",
+      "count": 179,
+      "avg_salary": 93692.0
+    },
+    {
+      "name": "Cybersecurity",
+      "count": 174,
+      "avg_salary": 105741.0
+    },
+    {
+      "name": "Cloud",
+      "count": 172,
+      "avg_salary": 133317.0
+    }
+  ],
+  "salary_by_title": [
+    {
+      "name": "Ai Engineer",
+      "avg_salary": 159502.0,
+      "count": 183
+    },
+    {
+      "name": "Senior Data Scientist",
+      "avg_salary": 152344.0,
+      "count": 177
+    },
+    {
+      "name": "Senior Software Developer",
+      "avg_salary": 143625.0,
+      "count": 175
+    },
+    {
+      "name": "Machine Learning Engineer",
+      "avg_salary": 141904.0,
+      "count": 177
+    },
+    {
+      "name": "Cloud Engineer",
+      "avg_salary": 133317.0,
+      "count": 172
+    },
+    {
+      "name": "Data Engineer",
+      "avg_salary": 128493.0,
+      "count": 166
+    },
+    {
+      "name": "Devops Engineer",
+      "avg_salary": 127664.0,
+      "count": 181
+    },
+    {
+      "name": "Data Scientist",
+      "avg_salary": 117812.0,
+      "count": 200
+    },
+    {
+      "name": "Backend Developer",
+      "avg_salary": 112456.0,
+      "count": 163
+    },
+    {
+      "name": "Full Stack Developer",
+      "avg_salary": 112212.0,
+      "count": 189
+    },
+    {
+      "name": "Senior Data Analyst",
+      "avg_salary": 111748.0,
+      "count": 164
+    },
+    {
+      "name": "Software Developer",
+      "avg_salary": 105825.0,
+      "count": 159
+    },
+    {
+      "name": "Cybersecurity Analyst",
+      "avg_salary": 105741.0,
+      "count": 174
+    },
+    {
+      "name": "Frontend Developer",
+      "avg_salary": 100203.0,
+      "count": 194
+    },
+    {
+      "name": "Product Analyst",
+      "avg_salary": 97537.0,
+      "count": 183
+    }
+  ],
+  "jobs_by_location": [
+    {
+      "name": "Sydney, Australia",
+      "count": 913,
+      "avg_salary": 103302.0
+    },
+    {
+      "name": "Melbourne, Australia",
+      "count": 833,
+      "avg_salary": 102992.0
+    },
+    {
+      "name": "Remote",
+      "count": 762,
+      "avg_salary": 92975.0
+    },
+    {
+      "name": "Brisbane, Australia",
+      "count": 383,
+      "avg_salary": 100246.0
+    },
+    {
+      "name": "New York, USA",
+      "count": 281,
+      "avg_salary": 123571.0
+    },
+    {
+      "name": "Perth, Australia",
+      "count": 267,
+      "avg_salary": 101465.0
+    },
+    {
+      "name": "San Francisco, USA",
+      "count": 260,
+      "avg_salary": 121090.0
+    },
+    {
+      "name": "London, UK",
+      "count": 244,
+      "avg_salary": 97574.0
+    },
+    {
+      "name": "Adelaide, Australia",
+      "count": 215,
+      "avg_salary": 98024.0
+    },
+    {
+      "name": "Singapore",
+      "count": 204,
+      "avg_salary": 99734.0
+    },
+    {
+      "name": "Toronto, Canada",
+      "count": 194,
+      "avg_salary": 102287.0
+    },
+    {
+      "name": "Bangalore, India",
+      "count": 189,
+      "avg_salary": 50291.0
+    },
+    {
+      "name": "Berlin, Germany",
+      "count": 132,
+      "avg_salary": 100215.0
+    },
+    {
+      "name": "Canberra, Australia",
+      "count": 122,
+      "avg_salary": 101864.0
+    }
+  ],
+  "salary_by_experience": [
+    {
+      "name": "Lead/Manager",
+      "avg_salary": 114731.0,
+      "min_salary": 20506.0,
+      "max_salary": 188221.0,
+      "count": 628
+    },
+    {
+      "name": "Senior Level",
+      "avg_salary": 108880.0,
+      "min_salary": 22861.0,
+      "max_salary": 191448.0,
+      "count": 1208
+    },
+    {
+      "name": "Mid Level",
+      "avg_salary": 101074.0,
+      "min_salary": 28329.0,
+      "max_salary": 193792.0,
+      "count": 1623
+    },
+    {
+      "name": "Entry Level",
+      "avg_salary": 87831.0,
+      "min_salary": 22514.0,
+      "max_salary": 192080.0,
+      "count": 1540
+    }
+  ],
+  "employment_types": [
+    {
+      "name": "Full-time",
+      "count": 2961
+    },
+    {
+      "name": "Contract",
+      "count": 781
+    },
+    {
+      "name": "Part-time",
+      "count": 779
+    },
+    {
+      "name": "Internship",
+      "count": 478
+    }
+  ],
+  "monthly_trends": [
+    {
+      "month": "2025-09",
+      "count": 23
+    },
+    {
+      "month": "2025-10",
+      "count": 861
+    },
+    {
+      "month": "2025-11",
+      "count": 825
+    },
+    {
+      "month": "2025-12",
+      "count": 855
+    },
+    {
+      "month": "2026-01",
+      "count": 875
+    },
+    {
+      "month": "2026-02",
+      "count": 784
+    },
+    {
+      "month": "2026-03",
+      "count": 776
+    }
+  ],
+  "remote_stats": [
+    {
+      "name": "On-site",
+      "count": 4237,
+      "avg_salary": 101967.0
+    },
+    {
+      "name": "Remote",
+      "count": 762,
+      "avg_salary": 92975.0
+    }
+  ],
+  "top_companies": [
+    {
+      "name": "ClearPath Technologies",
+      "count": 120,
+      "avg_salary": 97538.0
+    },
+    {
+      "name": "KPMG",
+      "count": 119,
+      "avg_salary": 104449.0
+    },
+    {
+      "name": "BlueWave Software",
+      "count": 112,
+      "avg_salary": 100705.0
+    },
+    {
+      "name": "Atlassian",
+      "count": 109,
+      "avg_salary": 98809.0
+    },
+    {
+      "name": "Amazon",
+      "count": 109,
+      "avg_salary": 102480.0
+    },
+    {
+      "name": "NexGen Systems",
+      "count": 107,
+      "avg_salary": 100109.0
+    },
+    {
+      "name": "Oracle",
+      "count": 106,
+      "avg_salary": 101810.0
+    },
+    {
+      "name": "Optus",
+      "count": 106,
+      "avg_salary": 100450.0
+    },
+    {
+      "name": "IBM",
+      "count": 106,
+      "avg_salary": 100810.0
+    },
+    {
+      "name": "Accenture",
+      "count": 106,
+      "avg_salary": 102228.0
+    },
+    {
+      "name": "Telstra",
+      "count": 105,
+      "avg_salary": 94199.0
+    },
+    {
+      "name": "Spotify",
+      "count": 105,
+      "avg_salary": 104809.0
+    },
+    {
+      "name": "Shopify",
+      "count": 105,
+      "avg_salary": 97873.0
+    },
+    {
+      "name": "Palantir",
+      "count": 105,
+      "avg_salary": 103349.0
+    },
+    {
+      "name": "PivotPoint Data",
+      "count": 104,
+      "avg_salary": 100382.0
+    }
+  ],
+  "skills_salary": [
+    {
+      "name": "CloudFormation",
+      "avg_salary": 133280.0,
+      "count": 64
+    },
+    {
+      "name": "Terraform",
+      "avg_salary": 132147.0,
+      "count": 64
+    },
+    {
+      "name": "Serverless",
+      "avg_salary": 131037.0,
+      "count": 53
+    },
+    {
+      "name": "Google Cloud",
+      "avg_salary": 111969.0,
+      "count": 555
+    },
+    {
+      "name": "Power BI",
+      "avg_salary": 111313.0,
+      "count": 497
+    },
+    {
+      "name": "Spark",
+      "avg_salary": 110028.0,
+      "count": 485
+    },
+    {
+      "name": "Hadoop",
+      "avg_salary": 110019.0,
+      "count": 464
+    },
+    {
+      "name": "Scikit-learn",
+      "avg_salary": 109988.0,
+      "count": 509
+    },
+    {
+      "name": "Statistics",
+      "avg_salary": 109370.0,
+      "count": 477
+    },
+    {
+      "name": "Excel",
+      "avg_salary": 108984.0,
+      "count": 520
+    },
+    {
+      "name": "Data Visualization",
+      "avg_salary": 108913.0,
+      "count": 532
+    },
+    {
+      "name": "R",
+      "avg_salary": 108900.0,
+      "count": 466
+    },
+    {
+      "name": "Machine Learning",
+      "avg_salary": 108395.0,
+      "count": 499
+    },
+    {
+      "name": "Pandas",
+      "avg_salary": 108336.0,
+      "count": 468
+    },
+    {
+      "name": "Tableau",
+      "avg_salary": 108336.0,
+      "count": 489
+    }
+  ],
+  "entry_level_jobs": [
+    {
+      "name": "Junior Software Developer",
+      "count": 208,
+      "avg_salary": 66178.0
+    },
+    {
+      "name": "Junior Data Analyst",
+      "count": 193,
+      "avg_salary": 59905.0
+    },
+    {
+      "name": "Junior Data Scientist",
+      "count": 163,
+      "avg_salary": 82101.0
+    },
+    {
+      "name": "Help Desk Technician",
+      "count": 57,
+      "avg_salary": 46517.0
+    },
+    {
+      "name": "Network Administrator",
+      "count": 56,
+      "avg_salary": 74976.0
+    },
+    {
+      "name": "Business Intelligence Analyst",
+      "count": 54,
+      "avg_salary": 87292.0
+    },
+    {
+      "name": "Data Analyst",
+      "count": 52,
+      "avg_salary": 77626.0
+    },
+    {
+      "name": "Data Scientist",
+      "count": 50,
+      "avg_salary": 118314.0
+    },
+    {
+      "name": "Ux Designer",
+      "count": 47,
+      "avg_salary": 93615.0
+    },
+    {
+      "name": "System Administrator",
+      "count": 47,
+      "avg_salary": 83843.0
+    }
+  ],
+  "entry_level_data_skills": [
+    {
+      "name": "TensorFlow",
+      "count": 176
+    },
+    {
+      "name": "Google Cloud",
+      "count": 176
+    },
+    {
+      "name": "Data Visualization",
+      "count": 176
+    },
+    {
+      "name": "Excel",
+      "count": 173
+    },
+    {
+      "name": "NumPy",
+      "count": 167
+    },
+    {
+      "name": "Azure",
+      "count": 167
+    },
+    {
+      "name": "Jupyter",
+      "count": 165
+    },
+    {
+      "name": "Tableau",
+      "count": 164
+    },
+    {
+      "name": "Scikit-learn",
+      "count": 164
+    },
+    {
+      "name": "SQL",
+      "count": 161
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Market Insights Dashboard | Data Science Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ── Header ──────────────────────────────────────────────────────── -->
+    <header class="header">
+        <div class="header-content">
+            <div>
+                <h1>Job Market Insights Dashboard</h1>
+                <p>Analysis of 5,000+ tech job listings across 14 locations</p>
+            </div>
+            <span class="header-badge">Python + SQL + JavaScript</span>
+        </div>
+    </header>
+
+    <!-- ── Main Content ────────────────────────────────────────────────── -->
+    <main class="container">
+
+        <!-- Overview Stats -->
+        <div id="stats-grid" class="stats-grid"></div>
+
+        <!-- Key Insights -->
+        <h2 class="section-header">Key Insights</h2>
+        <div id="insights-grid" class="insights-grid"></div>
+
+        <!-- Filter Bar -->
+        <h2 class="section-header">Explore the Data</h2>
+        <div id="filter-bar" class="filter-bar"></div>
+
+        <!-- Charts Row 1: Skills & Salary -->
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span class="icon">&#128200;</span>
+                    Top In-Demand Skills
+                </div>
+                <div id="top-skills-chart" class="bar-chart"></div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span class="icon">&#128176;</span>
+                    Average Salary by Job Title
+                </div>
+                <div id="salary-title-chart" class="bar-chart"></div>
+            </div>
+        </div>
+
+        <!-- Charts Row 2: Category & Employment -->
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span class="icon">&#128202;</span>
+                    Jobs by Category
+                </div>
+                <div id="category-donut"></div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span class="icon">&#128188;</span>
+                    Employment Type Distribution
+                </div>
+                <div id="employment-donut"></div>
+            </div>
+        </div>
+
+        <!-- Charts Row 3: Experience & Skills Salary -->
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span class="icon">&#127942;</span>
+                    Salary by Experience Level
+                </div>
+                <div id="experience-chart" class="bar-chart"></div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span class="icon">&#128142;</span>
+                    Highest Paying Skills (Salary Premium)
+                </div>
+                <div id="skills-salary-chart" class="bar-chart"></div>
+            </div>
+        </div>
+
+        <!-- Monthly Trends (Full Width) -->
+        <div class="charts-grid">
+            <div class="chart-card full-width">
+                <div class="chart-title">
+                    <span class="icon">&#128197;</span>
+                    Monthly Job Posting Trends
+                </div>
+                <div id="monthly-trends-chart"></div>
+            </div>
+        </div>
+
+        <!-- Location Table -->
+        <div class="charts-grid">
+            <div class="chart-card full-width">
+                <div class="chart-title">
+                    <span class="icon">&#127758;</span>
+                    Jobs by Location
+                </div>
+                <div id="location-table"></div>
+            </div>
+        </div>
+
+        <!-- Entry Level Section -->
+        <h2 class="section-header">Entry-Level Opportunities (For Job Seekers)</h2>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span class="icon">&#128640;</span>
+                    Top Entry-Level Positions
+                </div>
+                <div id="entry-level-table"></div>
+            </div>
+
+            <div class="chart-card">
+                <div class="chart-title">
+                    <span class="icon">&#127919;</span>
+                    Most Requested Skills for Entry-Level Data Roles
+                </div>
+                <div id="entry-skills-chart" class="bar-chart"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ── Footer ──────────────────────────────────────────────────────── -->
+    <footer class="footer">
+        <p>Job Market Insights Dashboard &mdash; Built with Python, SQL, and JavaScript</p>
+        <p style="margin-top:4px;">
+            Data pipeline: Raw CSV &rarr; Pandas cleaning &rarr; SQLite &rarr; Analysis &rarr; Interactive Dashboard
+        </p>
+        <p style="margin-top:8px;">
+            <a href="https://github.com/saboor123-123/job-market-dashboard" target="_blank">View on GitHub</a>
+        </p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
